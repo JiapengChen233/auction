@@ -1,9 +1,9 @@
 <div class="row">
   <div *ngFor="let product of products" class="col-sm-4 col-md-4 col-lg-4">
     <div class="card mb-4 shadow-sm">
-      <img class="image-slide" src="https://placehold.it//320x150" alt="">
+      <img class="image-slide" src="https://placehold.it/320x150" alt="">
       <div class="card-body">
-        <h5 class="card-title card-title-adjust"><a>{{product.title}}</a></h5>
+        <h5 class="card-title card-title-adjust"><a [routerLink]="['/product', product.title]">{{product.title}}</a></h5>
         <h5 class="card-price-adjust">{{product.price}}元</h5>
         <p class="card-text">{{product.desc}}</p>
       </div>
