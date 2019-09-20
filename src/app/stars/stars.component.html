@@ -1,0 +1,4 @@
+<p class="star-adjust">
+  <i *ngFor="let star of stars" class="fa" aria-hidden="true" [class.fa-star]="star" [class.fa-star-o]="!star"></i>&nbsp;
+  <span>{{rating}}星</span>
+</p>

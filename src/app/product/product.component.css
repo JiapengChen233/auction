@@ -1,0 +1,14 @@
+.card-title-adjust {
+  display: inline-block;
+}
+
+.card-title-adjust > a {
+  color: #007bff;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.card-price-adjust {
+  float: right;
+  font-weight: bold;
+}
